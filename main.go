@@ -27,10 +27,10 @@ func main() {
 	PagarBoleto(&contaDenis, 60)
 	fmt.Println(contaDenis.ObterSaldo())
 
-	contaLuisa := contas.ContaCorrente{}
-	contaLuisa.Depositar(500)
-	PagarBoleto(&contaLuisa, 1000)
-	fmt.Println(contaLuisa.ObterSaldo())
+	// contaLuisa := contas.ContaCorrente{}
+	// contaLuisa.Depositar(500)
+	// PagarBoleto(&contaLuisa, 1000)
+	// fmt.Println(contaLuisa.ObterSaldo())
 
 	/********************************************************************************/
 	// clienteBruno := clientes.Titular{"Bruno", "123.111.123.12", "Desenvolvedor GO"}
